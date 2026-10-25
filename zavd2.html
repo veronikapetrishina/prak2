@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html lang="uk"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="description" content="Стилізація тематичної вебсторінки Вебпрограмування засобами HTML та CSS, завдання друге, варіант третій."> 
+        <meta name="keywords" content="HTML, CSS, вебпрограмування, гіпертекст, вебсторінка, гіперпосилання"> 
+        <meta name="author" content="Петришина Вероніка"> 
+        <title>Вебпрограмування</title> 
+        <!-- CSS-ефекти при наведенні --> 
+        <style> 
+        a.link:hover { 
+            color: white !important; 
+            background-color: blue; 
+            text-decoration: none !important; 
+            border-radius: 10px; 
+        } 
+        a.photo:hover img { 
+            transform: scale(1.1); 
+            box-shadow: 0 0 15px gray; 
+        } 
+        img.second:hover { 
+            transform: scale(1.1); 
+            border: 30px double green !important; 
+            box-shadow: 0 0 20px gray; } 
+        </style> 
+    </head> 
+    <!-- Завдання 1. Стилізація тексту --> 
+    <body style=" 
+    background-color: lightgray; 
+    font-family: 'Times New Roman'; 
+    font-size: 19px; 
+    color: blue; 
+    text-align: center; 
+    "> 
+    <main style=" 
+    border: 50px inset gray; 
+    border-radius: 20px; 
+    padding: 20px; 
+    "> 
+    <h1>Вебпрограмування</h1> 
+    <h2>Інформація про HTML</h2> 
+    <p> HTML (скорочення від "HyperText Mark-up Language") - перекладається як "Мова розмітка гіпертексту". </p> 
+    <p> Гіпертекст - це текст, що не послідовно зв'язаний з іншими документами, дозволяючи з першої сторінки документу перейти на останню. </p> 
+    <p>HTML впроваджує засоби для: 
+        Створення структурованого документу шляхом позначення структурного складу тексту: заголовки, абзаци, списки, таблиці, цитати та інше; 
+        Отримання інформації із Всесвітньої мережі через гіперпосилання; 
+        Створення інтерактивних форм; 
+        Включення зображень, звуку, відео та інших об'єктів до тексту. </p> 
+    <!-- Завдання 2. Стилізація зображень --> 
+    <h2>Зображення</h2> 
+    <a class="photo" href="https://w3schoolsua.github.io/" target="_blank"> 
+    <img src="photo-1461749280684-dccba630e2f6.jpeg" alt="HTML програмування" width="250" height="250" style=" border: 8px solid gray; border-radius: 60%; object-fit: cover; transition: 0.4s; "> </a> 
+    <p> <img class="second" src="photo-1498050108023-c5249f4df085.jpeg" alt="Вебпрограмування" width="350" style=" max-width: 90%; height: auto; border: 10px double gray; border-radius: 15px; transition: 0.4s; "> </p> 
+    <!-- Завдання 3. Стилізація посилань --> 
+    <h2>Корисні посилання</h2> 
+    <p> <a class="link" href="https://w3schoolsua.github.io/" target="_blank" style=" color: blue; font-size: 21px; text-decoration: underline; padding: 5px; transition: 0.3s; "> W3Schools українською </a> </p> 
+    <p> <a class="link" href="https://developer.mozilla.org/uk/docs/Web/HTML" target="_blank" style=" color: blue; font-size: 21px; text-decoration: underline; padding: 5px; transition: 0.3s; "> Документація HTML </a> </p> 
+    </main> 
+    </body> 
+</html>
+ 
+              
+
